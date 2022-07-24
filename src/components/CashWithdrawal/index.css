@@ -1,0 +1,76 @@
+.bg {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.card {
+  background-color: #150b3e;
+  height: 450px;
+  width: 450px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  padding-left: 32px;
+}
+.name-box {
+  display: flex;
+  margin-top: 15px;
+}
+.profile-pic {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c3aed;
+}
+.profile-name {
+  color: #ffffff;
+  padding-left: 20px;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: 10px;
+}
+.balance-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  height: 55px;
+}
+.your-balance {
+  color: #585076;
+  font-size: 20px;
+  font-weight: 600;
+}
+.balance {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+.in-rupees {
+  display: flex;
+  justify-content: flex-end;
+  color: #585076;
+  padding-right: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  font-weight: 500;
+}
+.withdraw {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 600;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
